@@ -1,0 +1,24 @@
+<document>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Описание страницы" />
+    <meta
+      name="keywords"
+      content="ключевое слово 1, ключевое слово 2, ключевое слово 3"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>1. Введение</title>
+  </head>
+  <body>
+    <p>Параграф 1</p>
+    <p>Параграф 2
+    <p>Параграф 3</p>
+    <p>Параграф 4
+    <p>Параграф 5
+    <input>
+    <input />
+    <input></input>
+    <input></input>
+  </body>
+  <foot>...</foot>
+</document>
