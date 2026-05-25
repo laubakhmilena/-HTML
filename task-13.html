@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>13. Формы: теги textarea, select, option, optgroup</title>
+</head>
+<body>
+  <form action="#" method="post">
+    <fieldset>
+      <legend>Основная информация</legend>
+      <label for="username">Логин:</label>
+      <input type="text" id="username" name="username"><br><br>
+
+      <label for="password">Пароль:</label>
+      <input type="password" id="password" name="password"><br><br>
+
+    <label for="about">О себе:</label><br>
+    <textarea id="about" name="about"></textarea><br><br>
+
+    <label for="city">Город:</label>
+    <select id="city" name="city">
+      <option disabled selected value>Выберите город</option>
+      <option value="moscow">Москва</option>
+      <option value="saint-petersburg">Санкт-Петербург</option>
+      <option value="novosibirsk">Новосибирск</option>
+      <option value="ekaterinburg">Екатеринбург</option>
+    </select><br><br>
+        </fieldset>
+</body>
+</html>
+
+<!-- В форме должны быть следующие поля:
+
+- логин
+- пароль
+- о себе (многострочное поле)
+- город (выпадающий список с несколькими опциями) -->
