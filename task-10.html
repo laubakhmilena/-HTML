@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+    }
+
+    table {
+      border-collapse: collapse;
+      background-color: antiquewhite;
+    }
+
+    caption {
+      margin-bottom: 0.5em;
+    }
+
+    table :is(td, th) {
+      padding: 1em;
+      border: 1px solid;
+    }
+
+    :is(tbody, tfoot) th {
+      text-align: left;
+    }
+
+    tfoot {
+      background-color: thistle;
+    }
+  </style>
+  <title>10. Таблицы</title>
+</head>
+<body>
+  <table>
+    <caption>Возможности тарифов</caption>
+    <thead>
+      <tr>
+        <th></th>
+        <th>Минимум</th>
+        <th>Стандартный</th>
+        <th>Премиум</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th>Мобильный интернет</th>
+        <td>1 Гб</td>
+        <td>5 Гб</td>
+        <td>25 Гб</td>
+      </tr>
+      <tr>
+        <th>Звонки</th>
+        <td>100 минут</td>
+        <td>500 минут</td>
+        <td>1000 минут</td>
+      </tr>
+      <tr>
+        <th>SMS</th>
+        <td>10</td>
+        <td>50</td>
+        <td>100</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <th>Абонентская плата</th>
+        <td>100 руб. / месяц</td>
+        <td>300 руб. / месяц</td>
+        <td>500 руб. / месяц</td>
+      </tr>
+    </tfoot>
+  </table>
+</body>
+</html>
