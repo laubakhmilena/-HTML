@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>14. Формы: дополнительные атрибуты</title>
+</head>
+<body>
+  <form id="registration">
+    <p>
+      <label for="login">Логин</label>
+      <input id="login"
+        name="login"
+        required
+        placeholder="Введите логин"
+        autofocus
+      
+      />
+    </p>
+
+    <p>
+      <label for="email">Электронная почта</label>
+      <input
+        id="email"
+        name="email"
+        type="email"
+        required
+        placeholder="Введите электронную почту"
+        autocomplete="off"
+      />
+    </p>
+
+    <p>
+      <label for="password">Пароль</label>
+      <input
+        id="password"
+        name="password"
+        type="password"
+        required
+        placeholder="Введите пароль"
+        minlength="8"
+        maxlength="16"
+      />
+    </p>
+
+    <p>
+      <label for="desired-weight">Желаемый вес</label>
+      <input
+        id="desired-weight"
+        name="desired-weight"
+        placeholder="Введите желаемый вес"
+        type="number"
+        inputmode="numeric"
+      />
+    </p>
+
+    <p>
+      <label for="about">О себе</label>
+      <textarea
+        id="about"
+        name="about"
+        placeholder="Расскажите о себе"
+        spellcheck="false"
+      ></textarea>
+    </p>
+
+    <p>
+      <label for="service-information">Служебная информация</label>
+      <textarea
+        id="service-information"
+        name="service-information"
+        readonly
+      >3eb1b782-d108-4536-83b8-dfd3ff23fb87</textarea>
+    </p>
+
+    <fieldset disabled>
+      <legend>Дополнительная информация</legend>
+      <p>
+        <label for="id">ID</label>
+        <input id="id" name="id" value="42" />
+      </p>
+      <p>
+        <label for="access-code">Код доступа</label>
+        <input id="access-code" name="access-code" />
+      </p>
+    </fieldset>
+
+    <p>
+      <label for="agreement">Согласен на обработку персональных данных</label>
+      <input
+        id="agreement"
+        name="agreement"
+        type="checkbox"
+      />
+    </p>
+
+    <p>
+      <button type="submit">Регистрация</button>
+    </p>
+  </form>
+
+  <p>
+    <label for="date-birth">Дата рождения</label>
+    <input
+      id="date-birth"
+      name="date-birth"
+      type="date"
+      form="registration"
+    />
+  </p>
+</body>
+</html>
