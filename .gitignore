@@ -1,0 +1,17 @@
+# System files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor folders
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Archives generated locally
+*.rar
+*.7z
